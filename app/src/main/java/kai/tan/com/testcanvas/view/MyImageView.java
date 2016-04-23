@@ -22,7 +22,7 @@ public class MyImageView extends View{
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         //把整张画布绘制成白色
-        canvas.drawColor(Color.BLACK);
+        canvas.drawColor(Color.WHITE);
         Paint paint = new Paint();
 
         paint.setAntiAlias(true);//去锯齿
